@@ -1,0 +1,13 @@
+---
+# Default file for ansible-role-common
+
+zsh_theme: steeef
+state: present
+aws: true
+
+user: false
+username: ubuntu
+
+
+
+

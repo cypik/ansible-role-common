@@ -1,0 +1,16 @@
+# {{ ansible_managed }}
+
+printf "\n"
+TEXT="{{hostvars[inventory_hostname].Env }}  {{hostvars[inventory_hostname].EcType | default ('')}}"
+sysbanner=`perl -e "print uc('$TEXT');"`
+figlet $sysbanner
+printf "\n"
+
+
+# UTF-8 Compass generation
+export LC_ALL='en_US.UTF-8'
+export LANG='en_US.UTF-8'
+
+
+
+
