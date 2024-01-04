@@ -16,8 +16,8 @@ We eat, drink, sleep and most importantly love **DevOps**. DevOps always promote
 Smaller roles are created for each environment elements; which also include tasks & tests. These roles can then be grouped together in [Ansible-Role-Common](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html) to achieve the desired yet consistent results.
 
 ## Table of Contents
-- [What Includes](#What Includes)
-- [Example Playbook](#Example Playbook)
+- [What Includes](#What-Includes)
+- [Example Playbook](#Example-Playbook)
 - [Variables](#Variables)
 - [License](#license)
 
